@@ -17,30 +17,11 @@ main {
 
 }
 
-.masthead {
-    background-image: url(images/Home\ Screen.png);
-    background-size: cover;
-    background-position: bottom;
-    height: 250px;
-    border-radius: 20px;
-    
-}
 
 
-
-
-
-div.code-html {
-    padding: 25px;
-    background: #424242;
-    color: #fff;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-
-}
 
 img {
-    width: 45%;
+    width: 35%;
 }
 
 
@@ -49,17 +30,7 @@ h2 {
     margin: 0 0 10px 0;
 }
 
-.details {
-    display: flex;
-}
 
-.details section {
-    flex-grow: 1;
-    flex-basis: 0;
-    background: #e9eaec;
-    border-radius: 20px;
-    margin-top: 25px;
-}
 
 .details section p {
     margin: 20px;
