@@ -1,27 +1,49 @@
 /* Add screen styles below */
+html {
+    background: #e3e3e3;
+
+}
+
 
 body {
-    background: #fff;
+    
     font-family: Helvetica, sans-serif;
-    border-top: 15px solid #424242;
-    margin: 0;
-    color: #424242;
-    margin: 0 auto;
+    border-top: 30px solid #242424;
+
+
+    margin: 40px;
+    padding: 40px;
+    color:#242424;
+    background: #fff;
     
 }
 
-main {
-    margin: 0 auto;
-    width: 800px;
-
+h1 {
+    font-size: 3em;
+    position: sticky;
+    top: 0px;
+    
+    margin: 0;
 
 }
 
+
+section {
+    display: flex;
+    
+}
+
+.callout {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
 
 
 
 img {
     width: 35%;
+    float: left;
 }
 
 
@@ -32,15 +54,65 @@ h2 {
 
 
 
-.details section p {
-    margin: 20px;
-
-}
-
 p {
-    margin: 0;
-    line-height: 1.4em;
+    
+    line-height: 1em;
+ 
+    
 
     
 }
 
+#blog-post {
+    border-top: 1px dotted #ccc;
+    
+
+}
+
+.position {
+    background: #e3e3e3;
+    position:relative;
+    top: 25px;
+    left: 25px;
+}
+
+
+
+
+.blog {
+    border-bottom: 1px dotted #ccc;
+    
+
+}
+
+article {
+    background: #999;
+    padding: 20px;
+    margin: 20px;
+}
+
+article:nth-of-type(1) {
+    flex: 1000px;
+}
+
+article:nth-of-type(2) {
+    flex: 300px;
+
+}
+
+article:nth-of-type(3) {
+    flex: 1000px;
+    
+}
+
+h3 {
+    background: #555;
+}
+
+footer {
+    background: #e3e3e3;
+}
+
+header {
+    background: #e3e3e3;
+}
